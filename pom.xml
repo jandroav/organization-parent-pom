@@ -8,8 +8,8 @@
 	<description>Parent POM for all Extensions</description>
 
     <properties>
-        <liquibase-core.version>4.22.0</liquibase-core.version>
-        <liquibase-commercial.version>4.22.0</liquibase-commercial.version>
+        <liquibase-core.version>${project.version}</liquibase-core.version>
+        <liquibase-commercial.version>${project.version}</liquibase-commercial.version>
     </properties>
 
     <dependencyManagement>
