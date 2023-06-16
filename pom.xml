@@ -1,0 +1,38 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.liquibase</groupId>
+    <artifactId>super-pom</artifactId>
+    <name>Super POM</name>
+    <packaging>pom</packaging>
+	<version>4.22.0</version>
+	<description>Parent POM for all Extensions</description>
+
+    <properties>
+        <liquibase-core.version>4.22.0</liquibase-core.version>
+        <liquibase-commercial.version>4.22.0</liquibase-commercial.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-core</artifactId>
+                <version>${liquibase-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-commercial</artifactId>
+                <version>${liquibase-commercial.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/liquibase-super-pom-test/super-pom</url>
+        </repository>
+  </distributionManagement>
+
+</project>
