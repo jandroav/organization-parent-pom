@@ -31,7 +31,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/liquibase-super-pom-test/super-pom</url>
+            <url>https://maven.pkg.github.com/jandroav/organization-parent-pom</url>
         </repository>
   </distributionManagement>
 

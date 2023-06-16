@@ -1,4 +1,4 @@
-name: Publish package to GitHub Packages
+name: Publish super-pom to GitHub Packages
 on:
   workflow_dispatch:
   release:
